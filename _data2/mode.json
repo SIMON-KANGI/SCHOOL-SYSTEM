@@ -1,0 +1,119 @@
+{
+  "Teachers": [
+    {
+      "id": 1,
+      "name": "Aaron Ramsdale",
+      "subject1": "English",
+      "subject2": "Maths",
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 2,
+      "name": "Ben White",
+      "subject1": "English",
+      "subject2": "Chemistry",
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 3,
+      "name": "William Saliba",
+      "subject1": "French",
+      "subject2": "Chemistry",
+      "age": 22,
+      "Nationality": "France"
+    },
+    {
+      "id": 4,
+      "name": "Gabriel Mahgalaes",
+      "subject1": "Kiswahili",
+      "subject2": "Maths",
+      "age": 25,
+      "Nationality": "Brazil"
+    },
+    {
+      "id": 5,
+      "name": "Takehiro Tomiyasu",
+      "subject1": "Kiswahili",
+      "subject2": "PE",
+      "age": 24,
+      "Nationality": "Japanese"
+    },
+    {
+      "id": 6,
+      "name": "Zincheko",
+      "subject1": "English",
+      "subject2": "Biology",
+      "age": 24,
+      "Nationality": "Ukraine"
+    },
+    {
+      "id": 7,
+      "name": "Bukayo Saka",
+      "subject1": "Chemistry",
+      "subject2": "Maths",
+      "age": 22,
+      "Nationality": "Nigeria"
+    },
+    {
+      "id": 8,
+      "name": "Declan Rice",
+      "subject1": "Physics",
+      "subject2": "Maths",
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 9,
+      "name": "Gabriel Jesus",
+      "subject1": "English",
+      "subject2": "Maths",
+      "age": 25,
+      "Nationality": "Brazil"
+    },
+    {
+      "id": 10,
+      "name": "Gabriel Martinelli",
+      "subject1": "Biology",
+      "subject2": "Maths",
+      "age": 22,
+      "Nationality": "Brazil"
+    },
+    {
+      "id": 11,
+      "name": "Emile Smithrowe",
+      "subject1": "English",
+      "subject2": "Maths",
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 12,
+      "name": "David Raya",
+      "subject1": "Social studies",
+      "subject2": "CRE",
+      "age": 24,
+      "Nationality": "Spain"
+    },
+    {
+      "id": 13,
+      "name": "Leandro Trossard",
+      "subject1": "Physics",
+      "subject2": "Geography",
+      "age": 28,
+      "Nationality": "Belgian"
+    },
+    {
+      "name": "",
+      "subject1": "",
+      "subject2": "",
+      "age": 0,
+      "Nationality": "",
+      "id": 14
+    },
+    {
+      "id": 15
+    }
+  ]
+}

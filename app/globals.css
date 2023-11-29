@@ -17,11 +17,20 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgb(229, 223, 223);
+  display:flex;
+}
+.card{
+  border:solid 1px
+}
+#dash-items{
+  transition:.5s ease
+}
+#dash-items:hover{
+transform:scale(1,1);
+}
+.btn{
+  border:solid 1px;
+  width:7rem;
+  height:3.3rem
 }
