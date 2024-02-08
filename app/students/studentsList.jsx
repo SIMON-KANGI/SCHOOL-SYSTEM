@@ -8,7 +8,7 @@ function StudentsList() {
    useEffect(() => {
     const getStudents = async () => {
       try {
-        const response = await fetch('http://localhost:4004/Students');
+        const response = await fetch('http://localhost:3000/Students');
         const data = await response.json();
         setStudents(data);
       } catch (error) {
@@ -34,9 +34,9 @@ function StudentsList() {
         getStudents();
         }, [])*/}
      useEffect(()=>{
-const DeleteStudent=async ()=>{
+const DeleteStudent=async(id)=>{
   try{
-    const res=await fetch(`http://localhost:4004/Students${id}`,{
+    const res=await fetch(`http://localhost:3000/Students/${id}`,{
 method:'DELETE'
     })
     const data=await res.json()
@@ -46,12 +46,17 @@ method:'DELETE'
     
 }catch (error) {
   console.error('Error fetching data:', error);
-}}
+}
   
+
+}
 DeleteStudent();
-}, []);
+}, [students]);
     if(students.length===0){
-        return <h1 className='text-center text-3xl font-bold text-rose-700'>No Students listed! Check later for updates</h1>
+      return(
+        <h1 className='text-center text-3xl font-bold text-rose-700'>No Students listed! Check later for updates</h1>
+      )
+        
     }
   return (
     <div className='w-screen'>
@@ -70,26 +75,29 @@ DeleteStudent();
     <tbody>
     {
         students.map((student)=>(
-          <tr className="bg-gray-100 border border-gray-800" key={student.id}>
-                <td className="bg-gray-100 border border-gray-800">{student.id}</td>
-                <td className="bg-gray-100 border border-gray-800">{student.name}</td>
-                <td className="bg-gray-100 border border-gray-800">{student.class}</td>
-                <td className="bg-gray-100 border border-gray-800">{student.age}</td>
-                <td className="bg-gray-100 border border-gray-800">{student.Nationality}</td>
-                <td className="bg-gray-100 border border-gray-800">{student.date}</td>
-                <td><Link className='btn' href={`/students/${student.id}`}>View</Link></td>
-                <td><button onClick={onOpen} className='btn text-slate-200 bg-red-900'>Delete</button></td>
-           <Modal isOpen={isOpen} onClose={onClose} isCentered>
+        <tr className="bg-gray-100 border border-gray-800" key={student.id}>
         
-           <ModalContent>
-           <ModalCloseButton onClose={onClose}/>
-           <ModalBody>
-           <h1 className='text-slate-800 text-xl'>Are you sure you want to delete this content?</h1>
-           <button  onClick={()=>DeleteStudent(student.id)} className='btn bg-red-600 text-slate-300'>Delete</button>
-           </ModalBody>
-           </ModalContent>
-           </Modal>
-              </tr>
+        <td className="bg-gray-100 border border-gray-800">{student.id}</td>
+        <td className="bg-gray-100 border border-gray-800">{student.name}</td>
+        <td className="bg-gray-100 border border-gray-800">{student.class}</td>
+        <td className="bg-gray-100 border border-gray-800">{student.age}</td>
+        <td className="bg-gray-100 border border-gray-800">{student.Nationality}</td>
+        <td className="bg-gray-100 border border-gray-800">{student.date}</td>
+        <td><Link className='btn' href={`/students/${student.id}`}>View</Link></td>
+        <td><button onClick={()=>onOpen(student.id)} className='btn text-slate-200 bg-red-900'>Delete</button>
+        </td>
+   <Modal isOpen={isOpen} onClose={onClose} isCentered>
+ <ModalContent>
+   <ModalCloseButton onClose={onClose}/>
+   <ModalBody>
+   <h1 className='text-slate-800 text-xl'>Are you sure you want to delete this content?</h1>
+   <button  onClick={()=>DeleteStudent(student.id)} className='btn bg-red-600 text-slate-300'>Delete</button>
+   </ModalBody>
+   </ModalContent>
+   </Modal>
+        
+        </tr>
+              
             )
                 
         )
@@ -101,6 +109,7 @@ DeleteStudent();
     </div>
   )
 }
+
 
 export default StudentsList
 

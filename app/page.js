@@ -1,4 +1,5 @@
-import Image from "next/image"
+
+import Image from 'next/image';
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import image2 from '../assets/2.jpg'
 

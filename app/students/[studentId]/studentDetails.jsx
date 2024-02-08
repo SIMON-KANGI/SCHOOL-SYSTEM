@@ -3,7 +3,7 @@ import React from 'react'
 
 async function Details(id){
     try{
-        const res= await fetch(`http://localhost:4004/Students${id}`,{
+        const res= await fetch(`http://localhost:3000/Students/${id}`,{
             next:{
                 revalidate:60
             }

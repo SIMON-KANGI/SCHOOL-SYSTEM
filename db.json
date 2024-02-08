@@ -1,0 +1,355 @@
+{
+  "announce": [
+    {
+      "id": 1,
+      "description": "All students with missing marks are requested to fill out there marks issues before the end of the semester"
+    },
+    {
+      "id": 2,
+      "description": "All form 4 students are urged to to read towards the upcoming KCSE exams. The library will be open everyday for them."
+    },
+    {
+      "id": 3,
+      "description": "The third term will be startin on 2nd september 2023 and ending on 10 November 2023 due to the final year exams."
+    },
+    {
+      "id": 4,
+      "description": "All students with missing marks are requested to fill out there marks issues before the end of the semester"
+    }
+  ],
+  "Teachers": [
+    {
+      "id": 1,
+      "name": "Aaron Ramsdale",
+      "subject1": "English",
+      "subject2": "Maths",
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 2,
+      "name": "Ben White",
+      "subject1": "English",
+      "subject2": "Chemistry",
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 3,
+      "name": "William Saliba",
+      "subject1": "French",
+      "subject2": "Chemistry",
+      "age": 22,
+      "Nationality": "France"
+    },
+    {
+      "id": 4,
+      "name": "Gabriel Mahgalaes",
+      "subject1": "Kiswahili",
+      "subject2": "Maths",
+      "age": 25,
+      "Nationality": "Brazil"
+    },
+    {
+      "id": 5,
+      "name": "Takehiro Tomiyasu",
+      "subject1": "Kiswahili",
+      "subject2": "PE",
+      "age": 24,
+      "Nationality": "Japanese"
+    },
+    {
+      "id": 6,
+      "name": "Zincheko",
+      "subject1": "English",
+      "subject2": "Biology",
+      "age": 24,
+      "Nationality": "Ukraine"
+    },
+    {
+      "id": 7,
+      "name": "Bukayo Saka",
+      "subject1": "Chemistry",
+      "subject2": "Maths",
+      "age": 22,
+      "Nationality": "Nigeria"
+    },
+    {
+      "id": 8,
+      "name": "Declan Rice",
+      "subject1": "Physics",
+      "subject2": "Maths",
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 9,
+      "name": "Gabriel Jesus",
+      "subject1": "English",
+      "subject2": "Maths",
+      "age": 25,
+      "Nationality": "Brazil"
+    },
+    {
+      "id": 10,
+      "name": "Gabriel Martinelli",
+      "subject1": "Biology",
+      "subject2": "Maths",
+      "age": 22,
+      "Nationality": "Brazil"
+    },
+    {
+      "id": 11,
+      "name": "Emile Smithrowe",
+      "subject1": "English",
+      "subject2": "Maths",
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 12,
+      "name": "David Raya",
+      "subject1": "Social studies",
+      "subject2": "CRE",
+      "age": 24,
+      "Nationality": "Spain"
+    },
+    {
+      "id": 13,
+      "name": "Leandro Trossard",
+      "subject1": "Physics",
+      "subject2": "Geography",
+      "age": 28,
+      "Nationality": "Belgian"
+    },
+    {
+      "name": "",
+      "subject1": "",
+      "subject2": "",
+      "age": 0,
+      "Nationality": "",
+      "id": 14
+    },
+    {
+      "id": 15
+    }
+  ],
+  "Students": [
+    {
+      "id": 1,
+      "name": "Aaron Wanbisaka",
+      "results": [
+        {
+          "maths": 10,
+          "English": 25,
+          "Kiswahili": 10,
+          "History": 25,
+          "Physics": 10,
+          "CRE": 25,
+          "chemistry": 10,
+          "agriculture": 25
+        }
+      ],
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 2,
+      "name": "David Onana",
+      "results": [
+        {
+          "maths": 10,
+          "English": 25,
+          "Kiswahili": 10,
+          "History": 25,
+          "Physics": 10,
+          "CRE": 25,
+          "chemistry": 10,
+          "agriculture": 25
+        }
+      ],
+      "age": 25,
+      "Nationality": "Ghana"
+    },
+    {
+      "id": 3,
+      "name": "Harry Maguire",
+      "results": [
+        {
+          "maths": 2,
+          "English": 50,
+          "Kiswahili": 2,
+          "History": 35,
+          "Physics": 5,
+          "CRE": 25,
+          "chemistry": 10,
+          "business": 25
+        }
+      ],
+      "age": 29,
+      "Nationality": "English"
+    },
+    {
+      "id": 4,
+      "name": "Lindelof",
+      "results": [
+        {
+          "maths": 15,
+          "English": 25,
+          "Kiswahili": 20,
+          "History": 25,
+          "Physics": 10,
+          "CRE": 25,
+          "chemistry": 10,
+          "computer": 55
+        }
+      ],
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 5,
+      "name": "Raphael Varane",
+      "results": [
+        {
+          "maths": 10,
+          "English": 56,
+          "Kiswahili": 10,
+          "History": 25,
+          "Physics": 0,
+          "CRE": 25,
+          "chemistry": 5,
+          "agriculture": 70
+        }
+      ],
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 6,
+      "name": "Dennis Dalot",
+      "results": [
+        {
+          "maths": 10,
+          "English": 25,
+          "Kiswahili": 10,
+          "History": 25,
+          "Physics": 10,
+          "CRE": 25,
+          "chemistry": 10,
+          "agriculture": 25
+        }
+      ],
+      "age": 24,
+      "Nationality": "English"
+    },
+    {
+      "id": 7,
+      "name": "Vincent Casemiro",
+      "results": [
+        {
+          "maths": 30,
+          "English": 5,
+          "Kiswahili": 10,
+          "History": 25,
+          "Physics": 10,
+          "CRE": 25,
+          "chemistry": 10,
+          "agriculture": 45
+        }
+      ],
+      "age": 34,
+      "Nationality": "Brazil"
+    },
+    {
+      "id": 8,
+      "name": "Scott Mactominay",
+      "results": [
+        {
+          "maths": 4,
+          "English": 25,
+          "Kiswahili": 10,
+          "History": 25,
+          "Physics": 10,
+          "CRE": 45,
+          "chemistry": 5,
+          "business": 25
+        }
+      ],
+      "age": 26,
+      "Nationality": "Scotland"
+    },
+    {
+      "id": 9,
+      "name": "Bruno Fernandes",
+      "results": [
+        {
+          "maths": 30,
+          "English": 20,
+          "Kiswahili": 10,
+          "History": 25,
+          "Physics": 40,
+          "CRE": 25,
+          "chemistry": 10,
+          "Computer": 25
+        }
+      ],
+      "age": 29,
+      "Nationality": "Portugal"
+    },
+    {
+      "id": 10,
+      "name": "Marcus Rashford",
+      "results": [
+        {
+          "maths": 15,
+          "English": 50,
+          "Kiswahili": 5,
+          "History": 25,
+          "Physics": 15,
+          "CRE": 25,
+          "chemistry": 10,
+          "agriculture": 25
+        }
+      ],
+      "age": 26,
+      "Nationality": "English"
+    },
+    {
+      "id": 11,
+      "name": "Rasmus Hojlund",
+      "results": [
+        {
+          "maths": 14,
+          "English": 25,
+          "Kiswahili": 10,
+          "History": 25,
+          "Physics": 30,
+          "CRE": 25,
+          "chemistry": 13,
+          "agriculture": 25
+        }
+      ],
+      "age": 20,
+      "Nationality": "Denmark"
+    },
+    {
+      "id": 12,
+      "name": "Ajehandro Ganarcho",
+      "results": [
+        {
+          "maths": 9,
+          "English": 40,
+          "Kiswahili": 14,
+          "History": 25,
+          "Physics": 12,
+          "CRE": 25,
+          "chemistry": 12,
+          "Computer": 25
+        }
+      ],
+      "age": 19,
+      "Nationality": "Argentina"
+    }
+  ]
+}
